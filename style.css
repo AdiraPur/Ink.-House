@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+
+}
+.back_nav{
+    background-color: #E1EDE6;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+}
+nav{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+}
+.logo_word{
+    color: #598D66;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 8px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_p{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0 0 0 60px;
+    padding: 0;
+    color: #2C2D35;
+}
+.icon_cart{
+    margin-left: 60px;
+}
+.start{
+    width: 1110px;
+    height: 620px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #2C2D35;
+    margin: 0px 0px 25px 0px;
+    line-height: 110%;
+}
+.logo_in_text{
+    color: #598D66;
+}
+.bird_text{
+    color: #86928B;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 500;
+    margin: 0px 0px 60px 0px;
+}
+.bird_buttom{
+    border: 1px solid #598D66;
+    color: #598D66;
+    width: 227px;
+    height: 65px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.galery{
+    width: 1110px;
+    margin: 70px auto;
+}
+.shapka_reprodukt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.h2_black{
+    font-size: 40px;
+    font-weight: 500;
+    color: #2C2D35;
+    margin: 0;
+    line-height: 100%;
+}
+.h2_white{
+    font-size: 40px;
+    font-weight: 500;
+    color: #F4F6F5;
+    margin: 0;
+    line-height: 100%;
+}
+.country{
+    border: none;
+    background-color: #D4E8D9;
+    border-radius: 70px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2C2D35;
+    padding: 15px 25px;
+    margin-left: 32px;
+}
+.country.active {
+    background-color: #376B44;
+    color: #F4F6F5;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 30px;
+}
+.pictures[data-country="Германия"] {
+    display: none;
+}
+.picture{
+    background-color: #E1EDE6;
+    height: 730px;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.author{
+    margin: 10px 0px 10px 0px;    
+    font-size: 18px;
+    font-weight: 500;
+    color: #86928B;
+}
+h3{
+    margin: 0px 0px 10px 0px;   
+    font-size: 30px;
+    font-weight: 500;
+}
+.info{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2C2D35;
+    margin: 0px 0px 30px 0px;
+}
+.count{
+    font-size: 24px;
+    font-weight: 500;
+    color: #598D66;
+}
+.picture_buttom{
+    border: 1px solid #598D66;
+    color: #598D66;
+    width: 310px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #E1EDE6;
+}
+.kollekciya{
+    background-image: url(./image/promo.png);
+    background-size: cover;
+}
+.block_kollekciya{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.h2_logo{
+    display: flex;
+    text-align: left;
+    gap: 20px;
+}
+.p_white{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+.p_black{
+    color: #2C2D35;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+.button_kollekciya{
+    color: #2C2D35;
+    width: 257px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #EEDB6D;
+    border: none;
+    margin-top: 40px;
+}
+.our_team{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0px;
+}
+.our_team_photos{
+    display: flex;
+    gap: 30px;
+}
+footer{
+    background-color: #E1EDE6;
+    margin: 0;
+
+}
+.footer{
+    margin: 0 auto;
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    height: 168px;
+    box-sizing: border-box;
+}
+.num{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2C2D35;
+    margin: 30px 0px 7px 0px;
+}
+.h_footer{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2C2D35;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.p_footer{
+    font-size: 18px;
+    font-weight: 400;
+    color: #86928B;
+    margin: 0px;
+    line-height: 150%;
+    margin-bottom: 5px;
+}
+.footer_column_two{
+    display: flex;
+    gap: 60px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.under_icons{
+    font-size: 12px;
+    font-weight: 400;
+    color: #86928B;
+    margin: 0px;
+    line-height: 120%;
+    margin: 8px 0px 8px 0px;
+}
