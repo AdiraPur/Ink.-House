@@ -6,7 +6,7 @@ body{
 .back_nav{
     background-color: #E1EDE6;
     height: 100px;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     z-index: -1;
     background-size: cover;
@@ -58,7 +58,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-
 }
 h1{
     font-size: 60px;
@@ -131,9 +130,6 @@ h1{
     flex-wrap: wrap; 
     gap: 30px;
 }
-.pictures[data-country="Германия"] {
-    display: none;
-}
 .picture{
     background-color: #E1EDE6;
     height: 730px;
@@ -175,6 +171,8 @@ h3{
 .kollekciya{
     background-image: url(./image/promo.png);
     background-size: cover;
+    height: 574px;
+    width: 100vw;
 }
 .block_kollekciya{
     width: 1110px;
@@ -225,6 +223,7 @@ h3{
 footer{
     background-color: #E1EDE6;
     margin: 0;
+    width: 100vw;
 
 }
 .footer{
@@ -279,3 +278,121 @@ ul{
     line-height: 120%;
     margin: 8px 0px 8px 0px;
 }
+.footer_mini{
+    margin: 0 auto;
+    width: 90vw;
+    display: none;
+    justify-content: space-between;
+    padding: 15px 0px;
+    box-sizing: border-box;
+}
+.footer_row_one{
+    margin: 0 auto;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    box-sizing: border-box;    
+}
+.num_mini{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2C2D35;
+    margin: 0px 0px 7px 0px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 40px;
+    }
+    nav{
+        width: 90vw;
+    }
+    .menu_p{
+        margin: 0 0 0 40px;
+    }
+    .icon_cart{
+        margin-left: 40px;
+    }
+    .start{
+        width: 90vw;
+        height: auto;
+    }
+    .img_bird>img{
+        height: 380px;
+        width: 330px;
+    }
+    .bird_text{
+        margin: 0px 0px 35px 0px;
+    }
+    .bird_buttom{
+        height: 60px;
+        width: 210px;
+    }
+    .galery{
+        width: 90vw;
+    }
+    .h2_black{
+        font-size: 30px;
+    }
+    .h2_white{
+        font-size: 30px;
+    }
+    .button_kollekciya{
+        width: 126px;
+        height: 43px;
+    }
+    .picture{
+        height: 730px;
+        width: 330px;
+        padding: 20px;
+    }
+    .picture>img{
+        height: 420px;
+        width: 290px;
+    }
+    .picture_buttom{
+        width: 290px;
+        height: 65px;
+    }
+    .kollekciya{
+        height: 502px;
+        background-image: url(./image/promo_mini_768.png);
+        background-size: cover;
+    }
+    .block_kollekciya{
+        width: 90vw;
+        padding: 60px 0;
+    }
+    .h2_logo>div>img{
+        width: 60px;
+        height: 60px;
+    }
+    .button_kollekciya{
+        width: 210px;
+        height: 60px;
+        margin-top: 20px;
+    }
+    .our_team {
+        width: 90vw;
+        flex-direction: column;
+        align-items: start;
+        padding: 50px 0px;
+    }
+    .footer{
+        display: none;
+
+    }
+    .footer_mini{
+        display: flex;
+    }
+    .footer_column_one{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
